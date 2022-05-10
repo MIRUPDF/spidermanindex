@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #636e72;
+}
+
+#main{
+	width: 940px;
+	height: 600px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/spidermanfondo.jpg);
+	background-size: 110%;
+	background-position: 20% 20%;
+
+}
+
+#header{
+	width: 940px;
+	height: 62px;
+	background-color:#161B21;
+	opacity: 100%;
+}
+
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:100px;
+    padding:5px 10px;
+    background-color:#b33939;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;	
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-family:good times;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 55px;
+  letter-spacing: 2px;
+}
+h2{
+  color: #F2F2F2;
+  font-family:goo;
+  font-size: 40px;
+  margin-bottom:160;
+  margin-left: 100px;
+  margin-top: 15px;
+  letter-spacing: 2px;
+}
+
+p{
+	color: white;
+	
+	font-size: 14px;
+	margin-left: 100px;
+    margin-top: 30px;
+	letter-spacing: 1px;
+
+}
+
+/* selector de clase*/
+
+footer{
+	width: 940px;
+	height: 70px;
+	margin-top: 150px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+}
+footer p{
+	padding-top: 20px;
+	font-size: 1.2em;
+}
+.img{
+	margin-top: 15px;
+	width: 177px;
+	height: 40px;
+	float: left;
+	
+}
+
+.uces {
+	height: 40px;
+	width: 59px;
+	float: right;
+	margin-top: 15px;
+}
+.logo{
+	margin-left: 30px;
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	float: left;	
+}
+
+.escena1{
+	width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+.escena2{
+	width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+.escena3{
+    width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+#escenas{
+    width: 300px;
+	height: 650px;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+#section {
+	width: 640px;
+}
+
+#article{
+	width: 940px;
+	height: 350px;
+	display: flex;
+	flex-direction: row-reverse;
+	}
+
+
+
+
+
+
+
+
+
+
+
